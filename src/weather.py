@@ -5,7 +5,7 @@ import json
 from pyowm.owm import OWM
 
 def loader():
-    with open("../setup.json", "r") as file:
+    with open("../data.json", "r") as file:
         setup = json.load(file)
     return setup
 
